@@ -1,0 +1,44 @@
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #008CBA;
+    color: white;
+}
+
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  padding: 7px, 18px;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+#createBtn{
+  font-size: 24px;
+  padding: 20px, 34px;
+}
